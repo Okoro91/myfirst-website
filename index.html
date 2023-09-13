@@ -7,21 +7,36 @@
     <title>Princess Hall of Fashion</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Lato:wght@300&family=Montserrat&family=Nunito:ital,wght@1,300&family=Oswald:wght@700&family=Playfair+Display:ital@1&family=Poppins:ital,wght@1,200&family=Raleway:wght@900&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
     <header>
-        <div>
-            <div>
-            <img src="images/logo.png" alt="pjh logo">
+        <div class="hero">
+            <div class="left-icon">
+              <div class="logo">
+                <img src="images/logo-plntp.png" alt="pjh logo">
+              </div>
+              <div class="search">
+                    <span>Let us help you get your order</span>
+                  <button><i class="fas fa-search icon"></i></button></i>
+              </div>
             </div>
-            <div>
-                <i class="fas fa-search icon"></i>
-                 <i class="fas fa-shopping-cart icon"></i>
+
+            <div class="right-icon">
+                <div class="star-icon-container">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="cart-icon-container">
+                    <i class="fas fa-shopping-cart icon"></i>
+                    <span class="cart-badge">3</span>
+                </div>
             </div>
         </div>
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact.html">contact</a></li>
@@ -38,85 +53,212 @@
         </div>
     </Section>
     <section id="product">
-        <article id="hub">
-            <img src="images/wristwatch.jpg" alt="">
-            <h2>Princess Jewery Hub</h2>
-            <p><em>we offer the best quality jeweries there is</em></p>
+        <h2 class="toptext">Our Service</h2>
+        <div class="prod">
+        <article id="hub" class="service">
+            <h3>Princess Jewery Hub</h3>
+            <div class="leftside">
+                 <img src="images/wristwatch.jpg" alt="">
+            </div>
+            <div class="rightside">
+                <div class="text-con">
+                <p class="em-text"><em>Experience Elegance, Embrace Luxury</em></p>
+                <p class="prod-text">At Princess Jewelry Hub, we don't just sell jewelry; we craft timeless pieces that tell stories and enhance your radiance. Our commitment to excellence shines through every meticulously designed item. With fine craftsmanship and dedication, we offer the best jewelry. From dazzling diamonds to lustrous pearls, each piece is a masterpiece. Elevate your style, celebrate life's moments, and adorn yourself with elegance. Discover Princess Jewelry Hub, where beauty meets perfection.</p>
+                </div>
+                <button>Learn More</button>
+            </div>
         </article>
-        <article id="wear">
-            <img src="images/women-wears.jpg" alt="">
-            <h2>Princess Women Wears</h2>
-            <p><em>we speakm in the  style of your clothing outfit</em></p>
+        <article id="wear" class="service">
+            <h3>Princess Women Wears</h3>
+            <div class="leftside">
+                 <img src="images/women-wears.jpg" alt="">
+            </div>
+            <div class="rightside">
+                <div class="text-con">
+                <p class="em-text"><em>Elegance Tailored to Perfection</em></p>
+                <p class="prod-text">Welcome to Princess Women Wears, where fashion speaks your language. Style is self-expression, and our collections convey confidence and grace. From casual chic to business attire and evening glamour, we curate outfits reflecting your essence. From the runway to your wardrobe, we bring the latest trends and timeless classics together, ensuring you always make a statement. Discover the latest trends and timeless classics, letting your style shine with Princess Women Wears.</p>
+                </div>
+                <button>Learn More</button>
+          </div>
 
         </article>
-        <article id="school">
-            <img src="images/fashion-shool.jpg" alt="">
-            <h2>Princess Fashion School</h2>
-            <p><em>our training session can transform you to a fashion expect</em></p>
+        <article id="school" class="service">
+            <h3>Princess Fashion School</h3>
+            <div class="leftside">
+                <img src="images/fashion-shool.jpg" alt="">
+            </div>
+            <div class="rightside">
+                <div class="text-con">
+                    <p class="em-text"><em>Ignite Your Passion, Master Your Craft</em></p>
+                    <p class="prod-text">Princess Fashion School: Where dreams turn into reality, creativity thrives, and experts emerge. Our training sessions are more than just classes; they are journeys of self-discovery and artistic exploration, led by industry professionals. our courses cover every aspect of the fashion world. Whether it's design, styling, or entrepreneurship, we provide the knowledge and skills to excel, we empower your fashion passion into a fulfilling career. Step into the world of expertise.</p>
+                </div>
+                    <button>Learn More</button>
+            </div>
+
         </article>
+        </div>
     </section>
-    <section id="service">
-        <article>
+    <section id="quality">
+        <article class="content grid-icon">
             <div class="icon-container">
-
-
+                <i class="fas fa-star icon"></i>
             </div>
-
-            <h3><i class="fas fa-star icon"></i>Quality Assurance</h3>
-            <p>we only offer from the best quality jeweries and fashion style there is </p>
-        </article>
-        <article>
-            <div>
-                <h3><i class="fas fa-fire icon"></i>Trending Pieces</h3>
-                <p>our product are the latest brand in town and the most amiable</p>
+            <div class="icon-text">
+                <h3>Quality Assurance</h3>
+                <p> <strong>Crafted with Excellence: </strong>We offer only the best in jewelry and fashion, crafted to perfection for your confidence. </p>
             </div>
         </article>
-        <article>
-            <h3> <i class="fas fa-shipping-fast icon"></i>Fast Shipping</h3>
-            <p>we deliver to your door step at faster than you can imagine</p>
+
+        <article class="grid-icon space">
+
+        </article>
+        <article class="grid-icon content">
+            <div class="icon-container">
+                <i class="fas fa-fire icon"></i>
+            </div>
+            <div class="icon-text">
+                <h3>Trending Pieces</h3>
+                <p><strong>Always in Style:</strong> Discover the latest and most stylish pieces in town. Be the trendsetter.</p>
+            </div>
+        </article>
+        <article class="grid-icon space">
+
+        </article>
+        <article class="grid-icon content">
+            <div class="icon-container">
+                <i class="fas fa-shipping-fast icon"></i>
+            </div>
+            <div class="icon-text">
+            <h3>Fast Shipping</h3>
+            <p> <strong>Swift Deliveries:</strong> Your orders faster than you can imagine, right to your doorstep.</p>
+            </div>
+        </article>
+        <article class="grid-icon space">
+
         </article>
     </section>
     <section id="video">
+        <div class="video-con">
         <video controls width="540px" height="360">
             <source src="images/video.mp4">
         </video>
+        </div>
     </section>
-    <section id="qoute">
-        <p>what our customer say about use</p>
-        <h6>
-            pjh is the best , they have the best collection of fashion item for both men and women
-            <span>-lola</span>
-        </h6>
-    </section>
-    <footer>
-        <div>
-            <p>our product</p>
-            <ul>
-                <li><a href="#hub">Jewery hub</a></li>
-                <li><a href="#wear">Women fashion</a></li>
-                <li><a href="#school">fashion school</a></li>
-            </ul>
-        </div>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="catalog.html">Catalog</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <p>Visit us on social Meidia</p>
-            <ul>
-                <li><a href="https://www.facebook.com/princess.jewelryhub/photos_by">Facebook</a></li>
-                <li><a href="https://www.instagram.com/princess_jewelry_hub/">Instagram</a></li>
-                <li><a href="https://wa.me/message/362PWSEPNX3CD1">WhatsApp</a></li>
-            </ul>
-        </div>
-    </footer>
+    <section id="testimonials">
 
+        <div class="testimonial-heading">
+            <h3>What our Customers say about us</h3>
+        </div>
+
+        <div class="testimonial-box-container">
+
+            <div class="testimonial-box">
+
+                <div class="box-top">
+
+                    <div class="profile">
+
+                        <div class="profile-img">
+                            <img src="images/customer-1.jpeg" />
+                        </div>
+
+                        <div class="name-user">
+                            <strong>Nneka Opku</strong>
+                            <span>@nekagold</span>
+                        </div>
+                    </div>
+
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>Princess Hall of Fashion is truly exceptional. They offer the most extensive collection that caters to all my fashion desires. PHF, you have my heart; you are unparalleled!.</p>
+                </div>
+            </div>
+
+            <div class="testimonial-box">
+
+                <div class="box-top">
+
+                    <div class="profile">
+
+                        <div class="profile-img">
+                            <img src="images/customer-4.jpg" />
+                        </div>
+
+                        <div class="name-user">
+                            <strong>Favour</strong>
+                            <span>@favdiamond</span>
+                        </div>
+                    </div>
+
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="client-comment">
+                    <p>I consistently choose Princess Women Wears as my primary source for clothing because their collection is simply perfection.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="clearfix">
+        <div class="top-footer">
+            <div class="f-product">
+                <p>Our Product</p>
+                <ul>
+                    <li><a href="#hub">Jewery Hub</a></li>
+                    <li><a href="#wear">Women Fashion</a></li>
+                    <li><a href="#school">Fashion School</a></li>
+                </ul>
+            </div>
+            <div class="f-nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="catalog.html">Catalog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="social">
+                <p>Follow us</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/princess.jewelryhub/photos_by" target="_blank" rel="noopener noreferrer"><button><i class="fab fa-facebook-f"></i></button></a></li>
+                    <li><a href="https://www.instagram.com/princess_jewelry_hub/" target="_blank" rel="noopener noreferrer"><button><i class="fab fa-instagram"></i></button></a></li>
+                    <li><a href="https://wa.me/message/362PWSEPNX3CD1" target="_blank" rel="noopener noreferrer"><button><i class="fab fa-whatsapp"></i></button></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="mid-footer">
+            <ul>
+                <li><a href="#">Privacy Policy</a> <span>|</span></li>
+                <li><a href="#">Terms & Conditions</a> <span>|</span></li>
+                <li><a href="#">Store Location</a> <span>|</span></li>
+                <li><a href="#">Partnership</a> </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="end-footer">
+            <p>©2023 code and design by mi okoro tech</p>
+        </div>
+
+    </footer>
 </div>
 </body>
 </html>

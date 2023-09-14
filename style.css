@@ -44,7 +44,9 @@ ul {
     list-style-type: none;
 }
 
-header {
+/* Home page head style goes here */
+
+.home-header {
     position: fixed;
     top: 0;
     display: block;
@@ -198,6 +200,72 @@ header {
     border: 1px solid#cc981b;
 }
 
+
+/* secondary page headers goes here */
+
+.gen-header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
+    background-color: #bfad82;
+    padding: 5px 20px 2px 10px;
+}
+
+.gen-nav {
+    flex: 1 1;
+    margin-right: 5px;
+}
+
+.gen-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
+.gen-nav a {
+    font-family: 'Lato', sans-serif;
+    color: #4d3703;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 2PX;
+}
+.gen-nav a:hover {
+    color: #f3f2f0;
+    border-bottom: 2px solid #4d3703;;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media (max-width: 700px) {
+    .nav-icon span {
+        display: none;
+    }
+
+    .nav-icon .search {
+    padding: 0;
+    }
+}
+
+
+.page-home {
+    margin: 61px auto 10px;
+    padding: 35px 5px 0;
+}
+
+/*general style continues */
+
 #home {
     display: block;
     width: 100%;
@@ -206,6 +274,10 @@ header {
     background-size: cover;
     background-position: center center;
     background-clip: border-box;
+}
+
+/* for the home page home space alone */
+.main-home {
     margin: 114px auto 5px;
     padding: 55px 5px 15px;
 }

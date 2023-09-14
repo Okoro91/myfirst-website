@@ -7,27 +7,37 @@
     <title>Contact us now</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Lato:wght@300&family=Montserrat&family=Nunito:ital,wght@1,300&family=Oswald:wght@700&family=Playfair+Display:ital@1&family=Poppins:ital,wght@1,200&family=Raleway:wght@900&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <div>
-            <img src="images/logo.png" alt="pjh logo">
-            <nav>
+        <header class="gen-header">
+            <div class="logo">
+                <img src="images/logo-plntp.png" alt="pjh logo">
+              </div>
+            <nav class="gen-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="catalog.html">Catalog</a></li>
                 </ul>
             </nav>
-            <div>
-                <i class="fas fa-search icon"></i>
-                 <i class="fas fa-shopping-cart icon"></i>
-            </div>
+            <div class="nav-icon">
+                <div class="search">
+                    <span>Let us help you get your order</span>
+                  <button><i class="fas fa-search icon"></i></button></i>
+                </div>
+                <div class="cart-icon-container">
+                    <i class="fas fa-shopping-cart icon"></i>
+                    <span class="cart-badge">3</span>
+                </div>
             </div>
         </header>
-            <Section id="home">
+            <Section id="home" class="page-home">
                 <div class="banner">
                     <h1>PRINCESS HALL OF FASHION</h1>
                     <p><em>Beauty at it peak</em></p>
@@ -57,33 +67,49 @@
                 </fieldset>
             </form>
         </section>
-        <footer>
-            <div>
-                <p>our product</p>
-                <ul>
-                    <li><a href="index.html#hub">Jewery hub</a></li>
-                    <li><a href="index.html#wear">Women fashion</a></li>
-                    <li><a href="index.html#school">fashion school</a></li>
-                </ul>
-            </div>
-            <div>
-                <nav>
+        <footer class="clearfix">
+            <div class="top-footer">
+                <div class="f-product">
+                    <p>Our Product</p>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="catalog.html">Catalog</a></li>
+                        <li><a href="#hub">Jewery Hub</a></li>
+                        <li><a href="#wear">Women Fashion</a></li>
+                        <li><a href="#school">Fashion School</a></li>
                     </ul>
-                </nav>
+                </div>
+                <div class="f-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="catalog.html">Catalog</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="social">
+                    <p>Follow us</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/princess.jewelryhub/photos_by" target="_blank" rel="noopener noreferrer"><button><i class="fab fa-facebook-f"></i></button></a></li>
+                        <li><a href="https://www.instagram.com/princess_jewelry_hub/" target="_blank" rel="noopener noreferrer"><button><i class="fab fa-instagram"></i></button></a></li>
+                        <li><a href="https://wa.me/message/362PWSEPNX3CD1" target="_blank" rel="noopener noreferrer"><button><i class="fab fa-whatsapp"></i></button></a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <p>Visit us on social Meidia</p>
+            <hr>
+            <div class="mid-footer">
                 <ul>
-                    <li><a href="https://www.facebook.com/princess.jewelryhub/photos_by">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/princess_jewelry_hub/">Instagram</a></li>
-                    <li><a href="https://wa.me/message/362PWSEPNX3CD1">WhatsApp</a></li>
+                    <li><a href="#">Privacy Policy</a> <span>|</span></li>
+                    <li><a href="#">Terms & Conditions</a> <span>|</span></li>
+                    <li><a href="#">Store Location</a> <span>|</span></li>
+                    <li><a href="#">Partnership</a> </li>
                 </ul>
             </div>
+            <hr>
+            <div class="end-footer">
+                <p>©2023 code and design by mi okoro tech</p>
+            </div>
+
         </footer>
     </div>
 

@@ -212,7 +212,11 @@ ul {
     flex-flow: row nowrap;
     width: 100%;
     background-color: #bfad82;
-    padding: 5px 20px 2px 10px;
+    padding: 5px 20px 2px 20px;
+}
+
+.gen-header .logo {
+    margin-left: 20px;
 }
 
 .gen-nav {
@@ -229,7 +233,8 @@ ul {
 }
 
 .gen-nav a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
     color: #4d3703;
     font-weight: 800;
     line-height: 1.5;
@@ -244,6 +249,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 10px;
 }
 
 
@@ -255,6 +261,7 @@ ul {
 
     .nav-icon .search {
     padding: 0;
+    margin-left: 10px;
     }
 }
 

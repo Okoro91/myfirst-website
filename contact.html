@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Lato:wght@300&family=Montserrat&family=Nunito:ital,wght@1,300&family=Oswald:wght@700&family=Playfair+Display:ital@1&family=Poppins:ital,wght@1,200&family=Raleway:wght@900&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="page1.css">
 </head>
 <body>
     <div class="container">
@@ -47,24 +48,39 @@
             <form action="" method="post">
                 <h2>Contact Us</h2>
                 <fieldset>
-                    <legend>Fill the following form</legend>
+                    <legend>Kindly Fill the form below</legend>
+                    <div class="data">
                     <label for="name">Full Name</label>
-                    <input id="name" type="text" name="fulName">
+                    <input id="name" type="text" name="fulName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="data">
                     <label for="email">Email</label>
-                    <input id="email" type="text" name="email">
+                    <input id="email" type="text" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="data">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{13}" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="data">
                     <label for="address">Address</label>
-                    <input id="address" type="text" name="address">
+                    <input id="address" type="text" name="address" placeholder="Enter your address">
+                    </div>
+                    <div class="line-data">
                     <label>
                         <input type="checkbox" name="suscribe" id="suscribe"> Do you agree to recieve a regular news letter from us
                     </label>
-                    <label for="message"> What message do you have for us</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="data">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="line-data">
                     <label>
                     <button id="send" type="submit">Send</button>
                     </label>
-                    <p>We respond witin 24 hours, if you did not get a responce after one week, kindly contact us again</p>
-
+                    </div>
                 </fieldset>
+                <p>We aim to respond within 24 hours. If you haven't received a response within one week, please don't hesitate to reach out to us again</p>
             </form>
         </section>
         <footer class="clearfix">

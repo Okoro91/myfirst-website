@@ -1,0 +1,95 @@
+form {
+    max-width: 475px;
+    margin: 10px auto;
+    padding: 20px 20px;
+    background-color: #f4f3ee;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: #cc981b;
+    font-weight: 900;
+    text-align: left;
+}
+fieldset {
+    width: 100%;
+    margin: 10px 5px;
+    padding: 5px 40px 5px 10px;
+    border: none;
+    border-top: 1px solid #c0b44b;
+}
+
+legend {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    color: #7e5a05;
+    font-size: 1em;
+    margin: 0  5px 10px 2px;
+    font-weight: 400;
+}
+
+label {
+    display: block;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #201d02;
+}
+
+.data input, textarea {
+    display: block;
+    width: 100%;
+    margin: 0 10px 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #7e5a05;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #999;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8em;
+}
+
+.line-data {
+    margin: 15px auto;
+}
+
+.line-data label {
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: 500;
+}
+
+input[type="checkbox"],
+input[type="checkbox"]:checked {
+    transform: scale(1.5);
+}
+
+input:hover {
+    border: 2px solid #c0b44b;
+}
+
+.line-data button {
+    display: block;
+    width: 100px;
+    padding: 5px 8px;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #f4f3ee;
+    background-color: #bfad82;
+    border: 1px solid #d0cbb4;
+    cursor: pointer;
+}
+
+form p {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.7em;
+    color: #20190a;
+}

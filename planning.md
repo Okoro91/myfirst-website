@@ -44,4 +44,8 @@ catalog page
 
 - header
 - images of beautiful fashion collection
+-displays 6 images in a 3x2 grid with labels
+-[Image 1] [Image 2] [Image 3]
+[Image 4] [Image 5] [Image 6]
+-each image open in new window
 - footer

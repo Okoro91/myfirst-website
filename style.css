@@ -115,6 +115,7 @@ ul {
     border-radius: 100%;
     padding: 4px;
     border: 1px solid rgb(206, 194, 102);
+    cursor: pointer;
 }
 
 
@@ -146,6 +147,7 @@ ul {
     display: block;
     font-size: 1.5em;
     color: #b43b3b;
+    cursor: pointer;
     }
 
 
@@ -157,6 +159,7 @@ ul {
     display: block;
     font-size: 1.5em;
     color: #cc981b;
+    cursor: pointer;
     }
  .cart-badge {
         position: absolute;

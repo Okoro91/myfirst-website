@@ -143,7 +143,7 @@ ul {
 }
 
 
-.fa-star {
+.right-icon .fa-star {
     display: block;
     font-size: 1.5em;
     color: #b43b3b;
@@ -155,7 +155,7 @@ ul {
     position: relative;
     display: inline-block;
 }
-.fa-shopping-cart {
+.cart-icon-container .fa-shopping-cart {
     display: block;
     font-size: 1.5em;
     color: #cc981b;
